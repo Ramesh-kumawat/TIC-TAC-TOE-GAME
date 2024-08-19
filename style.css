@@ -1,0 +1,145 @@
+/* h1{
+    background-color: aqua;
+    display:inline-block;
+    align-items: center;
+  
+}
+body{
+    background-color: rgb(35, 32, 32);
+}
+*/
+
+/* styles.css */
+/* #resume {
+    /* Your CSS goes here */
+/* } */
+/* .contant{
+   color: red;
+}
+
+.newclass{
+    background-color: blue;
+}
+.newDiv{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+
+}
+
+.dark{
+    background-color: black;
+    
+}
+.light{
+    background-color: white;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: aquamarine;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.game{
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vh;
+
+}
+.box{
+    height: 18vh;
+    width: 18vh;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgb(0, 0,0,0.4);
+    font-size: 8vh;
+    color: #b0413e;
+    background-color: #fff;
+
+
+}
+
+#myResetBtn{
+padding: 1rem;
+font-size: 1.25rem;
+background-color: #191913;
+color: #fff;
+border-radius: 1rem;
+border: none;
+}
+
+
+
+#msg{
+    color: #000000;
+    font-size: 4vh;
+
+}
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+
+    
+.hide{
+    display: none;
+}
